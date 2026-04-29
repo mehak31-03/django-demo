@@ -7,7 +7,7 @@ class details(models.Model):
     text=models.TextField(max_length=50)
 
 
-def __str__(self):
+    def __str__(self):
         # Return the username or any desired field
         return self.name
         
